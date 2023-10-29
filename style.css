@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,600;0,700;1,700&display=swap');
+*{
+    
+    font-family: 'Cabin', sans-serif;
+}
+body{
+  background-color: #0A2647;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  
+}
+
+header nav{
+   background-color: #172736;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ul.navbar-nav > li > a:hover{
+    color: #FFE5B4 !important;
+}
+.navba{
+    display: flex;
+    justify-content: center;
+}
+.dropdown-menu{
+    background-color: #172736;
+}
+.dropdown-menu li a:hover{
+    background-color: #0A2647 !important;
+}
+.carousel-inner h5{
+    color: #FFE5B4;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.carousel-caption p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(244, 199, 18);
+}
+.carousel-caption div{
+    color: #FFE5B4 !important;
+}
+.navtab ul{
+    background-color: #172736;
+    
+} 
+.navtab ul li button{
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.card{
+    background-color: #000;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card-img-top {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+.footer{
+    background-color: #172736;
+    color: #b08f51;
+    
+}
+.footer ul  {
+    list-style-type: none;
+    
+}
+.footer ul li a{
+    color: #FFE5B4;
+}
+.footer ul li a :hover{
+
+    color: #b08f51;
+}
