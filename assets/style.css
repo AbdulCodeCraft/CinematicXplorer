@@ -103,9 +103,10 @@ ul.navbar-nav > li > a:hover{
     color: #b08f51;
 }
 
-@media only screen and (max-width: 380px) {
+
+@media screen and (max-width: 576px){
     .fixed-height{
-      max-height: 165px;
-      overflow: hidden;
+      max-height: 175px;
+      
     }
   }
