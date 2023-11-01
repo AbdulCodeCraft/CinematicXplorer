@@ -20,7 +20,7 @@ ul.navbar-nav > li > a:hover{
     display: flex;
     justify-content: center;
 }
-.carousel-caption button:hover{
+.carousel-caption a:hover{
     background-color: #0A2647;
 }
 .carousel-inner > .carousel-item > img {
@@ -31,7 +31,10 @@ ul.navbar-nav > li > a:hover{
     max-height: 650px;
 
 }
-
+.card-body h5{
+    font-size: 25px;
+    font-weight: 900;
+}
 .dropdown-menu{
     background-color: #172736;
 }
