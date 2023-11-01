@@ -20,6 +20,18 @@ ul.navbar-nav > li > a:hover{
     display: flex;
     justify-content: center;
 }
+.carousel-caption button:hover{
+    background-color: #0A2647;
+}
+.carousel-inner > .carousel-item > img {
+   
+    width: 100%;
+  }
+.fixed-height{
+    max-height: 650px;
+
+}
+
 .dropdown-menu{
     background-color: #172736;
 }
@@ -38,6 +50,12 @@ ul.navbar-nav > li > a:hover{
 .carousel-caption div{
     color: #FFE5B4 !important;
 }
+#myCarousel {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+  }
+  
 .navtab ul{
     background-color: #172736;
     
@@ -52,13 +70,24 @@ ul.navbar-nav > li > a:hover{
     color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.card:hover{
+    background-color: rgb(23, 22, 23);
+    
+}
 .card-img-top {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
+.card-body .btn{
+    background-color: #000 !important;
+}
+.card-body .btn:hover{
+    background-color: purple !important;
+    border: #05101b;
+}
 .footer{
-    background-color: #172736;
+    background-color: #05101b;
     color: #b08f51;
     
 }
@@ -73,3 +102,10 @@ ul.navbar-nav > li > a:hover{
 
     color: #b08f51;
 }
+
+@media only screen and (max-width: 380px) {
+    .fixed-height{
+      max-height: 165px;
+      overflow: hidden;
+    }
+  }
